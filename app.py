@@ -8,6 +8,7 @@ def get_all_text_files(directory):
 
 # Function to read the content of a text file and extract the title
 def read_text_file(file_path):
+    print(file_path)
     with open(file_path, 'r') as file:
         lines = file.readlines()
     # Assuming the first line is the title, prefixed by "Title: "
